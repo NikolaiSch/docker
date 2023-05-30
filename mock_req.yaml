@@ -1,0 +1,12 @@
+openapi: "3.0.2"
+info:
+  title: Example
+  version: "1.0"
+servers:
+  - url: http://172.17.0.2:8000
+paths:
+  /:
+    get:
+      responses:
+        "200":
+          description: <p>Hello, World!</p>
